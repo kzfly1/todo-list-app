@@ -6,8 +6,8 @@ function Task({ task, onComplete, onDelete, onUpdate, onDragStart }) {
 
   const handleSave = () => {
     if (editedContent.trim() !== "") {
-      onUpdate(task.id, editedContent); // Update the task with new content
-      setIsEditing(false); // Exit edit mode
+      onUpdate(task.id, editedContent);
+      setIsEditing(false);
     }
   };
 
