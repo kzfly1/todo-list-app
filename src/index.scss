@@ -1,0 +1,39 @@
+// // Import Bootstrap (if not already imported in the app)
+// @import "~bootstrap/dist/css/bootstrap.min.css";
+
+// // Optional: Custom styles
+
+// // Drag handle styling
+// .drag-handle {
+//   cursor: grab;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+
+//   span {
+//     background: #6c757d; // Bootstrap "secondary" color
+//     width: 16px; // Line length
+//     height: 2px; // Line thickness
+//     margin-bottom: 3px; // Space between lines
+
+//     &:last-child {
+//       margin-bottom: 0; // Remove margin for the last line
+//     }
+//   }
+
+//   &:hover {
+//     cursor: grabbing;
+//   }
+// }
+
+// // Completed tasks (optional customization)
+// .task.completed {
+//   text-decoration: line-through;
+//   color: #6c757d; // Bootstrap muted color
+// }
+
+// // Optional global adjustments
+// body {
+//   background-color: #f8f9fa; // Bootstrap "light" background
+//   font-family: "Helvetica Neue", Arial, sans-serif;
+// }
